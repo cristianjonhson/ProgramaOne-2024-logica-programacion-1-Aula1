@@ -23,6 +23,10 @@ if (!nombre) {
     if (!edad) {
         alert("¡Error! Completa todos los campos");
     } else {
+        // Imprime lo que se introdujo
+        alert("Nombre: " + nombre);
+        alert("Edad: " + edad);
+
         // Ahora, si la edad es mayor o igual a 18, muestra una alerta con el mensaje "¡Puedes obtener tu licencia de conducir!".
         if (edad >= 18) {
             alert("¡Puedes obtener tu licencia de conducir!");
