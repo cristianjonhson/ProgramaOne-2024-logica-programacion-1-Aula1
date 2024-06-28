@@ -71,3 +71,27 @@ alert(`Tu saldo disponible es: $${saldoDisponible}`);
 var nombreUsuario = prompt("Ingresa tu nombre:");
 alert(`¡Bienvenido/a, ${nombreUsuario}!`);
 
+//Modulo3
+
+// Desafío 1: Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
+var contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+}
+
+// Desafío 2: Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
+contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+
+// Desafío 3: Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
+var numeroFinal = prompt("Ingresa un número:");
+numeroFinal = parseInt(numeroFinal);  // Asegurarse de que sea un número entero
+contador = 0;
+while (contador <= numeroFinal) {
+    console.log(contador);
+    contador++;
+}
